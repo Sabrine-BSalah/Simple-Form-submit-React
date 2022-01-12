@@ -2,6 +2,7 @@ import './App.css';
 
 import { Form, Button } from 'react-bootstrap'
 import Sabrine2 from './Sabrine2';
+import Sabrine from './Sabrine';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
         </Button>
       </Form>
       <Sabrine2 />
+      <Sabrine />
     </div>
   );
 }
