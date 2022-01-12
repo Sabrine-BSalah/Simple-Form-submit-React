@@ -1,6 +1,7 @@
 import './App.css';
 
 import { Form, Button } from 'react-bootstrap'
+import Sabrine from './Sabrine';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           Submit
         </Button>
       </Form>
+      <Sabrine />
     </div>
   );
 }
